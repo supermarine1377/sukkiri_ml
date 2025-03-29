@@ -3,7 +3,7 @@ from sklearn import tree
 from sklearn.model_selection import train_test_split
 
 def main():
-    df = pd.read_csv("./iris.csv")
+    df = pd.read_csv("iris/iris.csv")
     
     xcols = [
       "sepal_length", 
